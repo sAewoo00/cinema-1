@@ -1,0 +1,87 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    color: #333;
+  }
+  header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  h2 {
+    color: #222;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  article {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  article img {
+    width: 120px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  article h3 {
+    color: #444;
+    margin: 0;
+  }
+  article p {
+    margin-top: 5px;
+  }
+  footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .share-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.share-button:hover {
+    background-color: #0056b3;
+}
